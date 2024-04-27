@@ -1,14 +1,14 @@
 import lawyer from '../recursos/copia1.jpg'
 export const Nosotros = () => {
   return (
-<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 " id='nosotros'>
+<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2" id='nosotros'>
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right mt-10">
       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
         EL ESTUDIO
       </h2>
 
-      <p className="hidden text-gray-500 md:mt-4 md:block">
+      <p className=" text-gray-500 md:mt-4 md:block">
       Somos un estudio jurídico de la Ciudad de Buenos Aires de amplia trayectoria y experiencia en diferentes áreas legales. 
       Poseemos un equipo interdisciplinario para abordar de la mejor manera posible las problemáticas que posea.</p>
 
