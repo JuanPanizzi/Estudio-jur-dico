@@ -1,4 +1,3 @@
-import React from 'react'
 import { SeparadorProps } from '../interfaces/Separador'
 
 export const Separador: React.FC<SeparadorProps>= ({title}) => {

@@ -1,4 +1,3 @@
-import React from 'react'
 
 {/*
 Heads up! 👋
@@ -9,7 +8,7 @@ Plugins:
 export const Form = () => {
   return (
 
-<section className="bg-gray-100">
+<section className="bg-gray-100" id="contacto">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
@@ -19,14 +18,15 @@ export const Form = () => {
         </p>
 
         <div className="mt-8">
-          <a href="#" className="text-2xl font-bold text-custom-marron1"> 2804-234429 </a>
+          <a href="#" className="text-2xl font-bold text-custom-marron1"> 11 3361-8557 </a>
 
-          <address className="mt-2 not-italic">Av. San Martín 229, Rawson Chubut.</address>
+          <address className="mt-2 not-italic">Don Bosco 3846, Ciudad Autónoma de Buenos Aires.</address>
         </div>
       </div>
 
       <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-        <form action="#" className="space-y-4">
+        <form  action="https://formspree.io/f/mvoelpap"
+  method="POST" className="space-y-4">
           <div>
             <label className="sr-only" htmlFor="name">Nombre</label>
             <input
@@ -34,6 +34,7 @@ export const Form = () => {
               placeholder="Nombre"
               type="text"
               id="name"
+              name="name"
             />
           </div>
 
@@ -45,6 +46,7 @@ export const Form = () => {
                 placeholder="Email"
                 type="email"
                 id="email"
+                name="email"
               />
             </div>
 
@@ -55,6 +57,7 @@ export const Form = () => {
                 placeholder="Teléfono"
                 type="tel"
                 id="phone"
+                name="phone"
               />
             </div>
           </div>
@@ -105,6 +108,7 @@ export const Form = () => {
               placeholder="Mensaje"
               rows={8}
               id="message"
+              name="message"
             ></textarea>
           </div>
 

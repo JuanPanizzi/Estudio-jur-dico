@@ -9,6 +9,8 @@ export default {
       colors: {
         custom: {
           "rojo1": "#b24c52",
+          "rojo-hover": '#db6066',
+          "blanco-hover": '#d8d8d8',
           "rosa1": "#d7a2a5",
           "negro": "#1c0c0d",
           "marron1": "#998270",

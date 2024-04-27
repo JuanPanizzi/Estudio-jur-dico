@@ -1,4 +1,3 @@
-import React from 'react'
 import banner from '../recursos/banner.jpg'
 // <!--
 // Heads up! 👋
@@ -19,7 +18,7 @@ export const Banner = () => {
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 "
   >
-    <div className="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right ">
+    <div className="max-w-xl text-center sm:text-left ltr:sm:text-left rtl:sm:text-right ">
       <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
         Estudio Jurídico
 
@@ -34,14 +33,14 @@ export const Banner = () => {
       <div className="mt-8 flex flex-wrap gap-4 ">
         <a
           href="#"
-          className="block w-full rounded bg-custom-rojo1 px-12 py-3 text-sm font-medium text-white shadow hover:bg-custom-rojo1 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          className="block w-full rounded bg-custom-rojo1 px-12 py-3 text-sm font-medium text-white shadow hover:font-bold focus:outline-none focus:ring active:bg-rose-500 w-1/2 sm:w-auto"
         >
           Contacto
         </a>
 
         <a
           href="#"
-          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-custom-rojo1 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-custom-rojo1 shadow  hover:font-bold hover:font-medium hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Nosotros
         </a>

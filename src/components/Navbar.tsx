@@ -19,19 +19,19 @@ export const Navbar = () => {
       <nav aria-label="Global" className="hidden md:block">
         <ul className="flex items-center gap-6 text-lg">
           <li className="hover:bg-custom-rojo1 py-5 px-1">
-            <a className=" transition  " href="#"> Nosotros </a>
+            <a className=" transition  " href="#nosotros"> Nosotros </a>
           </li>
 
           <li className="hover:bg-custom-rojo1 py-5 px-1">
-            <a className=" transition  " href="#"> Áreas de práctica </a>
+            <a className=" transition  " href="#areas"> Áreas de práctica </a>
           </li>
 
-          <li className="hover:bg-custom-rojo1 py-5 px-1">
+          {/* <li className="hover:bg-custom-rojo1 py-5 px-1">
             <a className="transition " href="#"> Actualidad </a>
-          </li>
+          </li> */}
 
           <li className="hover:bg-custom-rojo1 py-5 px-1">
-            <a className=" transition " href="#"> Contacto </a>
+            <a className=" transition " href="#contacto"> Contacto </a>
           </li>
 
         </ul>

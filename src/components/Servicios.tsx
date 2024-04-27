@@ -1,4 +1,3 @@
-import React from 'react'
 
 
 // user-tie <i classNameName="fa-solid fa-user-tie"></i>
@@ -8,7 +7,7 @@ import React from 'react'
 export const Servicios = () => {
   return (
 
-    <section className="bg-custom-gris2 text-black pt-10">
+    <section className="bg-custom-gris2 text-black pt-10" id="areas">
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
     <div className="mx-auto max-w-lg text-center">
       <h2 className="text-xl font-extrabold sm:text-4xl text-custom-rojo1 pt-5">ÁREAS DE PRÁCTICA</h2>
