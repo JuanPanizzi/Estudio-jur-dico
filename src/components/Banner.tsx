@@ -32,14 +32,14 @@ export const Banner = () => {
 
       <div className="mt-8 flex flex-wrap gap-4 ">
         <a
-          href="#"
+          href="#contacto"
           className="block w-full rounded bg-custom-rojo1 px-12 py-3 text-sm font-medium text-white shadow hover:font-bold focus:outline-none focus:ring active:bg-rose-500 w-1/2 sm:w-auto"
         >
           Contacto
         </a>
 
         <a
-          href="#"
+          href="#nosotros"
           className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-custom-rojo1 shadow  hover:font-bold hover:font-medium hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Nosotros
