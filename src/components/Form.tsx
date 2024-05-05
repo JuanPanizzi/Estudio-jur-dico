@@ -30,7 +30,7 @@ export const Form = () => {
           <div>
             <label className="sr-only" htmlFor="name">Nombre</label>
             <input
-              className="w-full rounded-lg border-gray-200 p-3 text-sm"
+              className="w-full rounded-lg border-gray-200 p-3 text-sm focus:outline-none focus:border-custom-marron1 focus:ring-1 focus:ring-custom-marron1"
               placeholder="Nombre"
               type="text"
               id="name"
@@ -42,7 +42,7 @@ export const Form = () => {
             <div>
               <label className="sr-only" htmlFor="email">Email</label>
               <input
-                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                className="w-full rounded-lg border-gray-200 p-3 text-sm focus:outline-none focus:border-custom-marron1 focus:ring-1 focus:ring-custom-marron1"
                 placeholder="Email"
                 type="email"
                 id="email"
@@ -53,7 +53,7 @@ export const Form = () => {
             <div>
               <label className="sr-only" htmlFor="phone">Teléfono</label>
               <input
-                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                className="w-full rounded-lg border-gray-200 p-3 text-sm focus:outline-none focus:border-custom-marron1 focus:ring-1 focus:ring-custom-marron1"
                 placeholder="Teléfono"
                 type="tel"
                 id="phone"
@@ -104,7 +104,7 @@ export const Form = () => {
             <label className="sr-only" htmlFor="message">Mensaje</label>
 
             <textarea
-              className="w-full rounded-lg border-gray-200 p-3 text-sm"
+              className="w-full rounded-lg border-gray-200 p-3 text-sm focus:outline-none focus:border-custom-marron1 focus:ring-1 focus:ring-custom-marron1"
               placeholder="Mensaje"
               rows={8}
               id="message"
