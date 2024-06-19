@@ -192,7 +192,7 @@ export const Footer = () => {
           </ul> */}
   
           <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-            &copy; 2024. Juan Panizzi. Todos los derechos reservados.
+            &copy; 2024. Agencia Aconcagua. Todos los derechos reservados.
           </p>
         </div>
       </div>
